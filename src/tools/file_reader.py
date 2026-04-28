@@ -1,12 +1,3 @@
-"""
-File reader tool — lets the agent read local files.
-
-This is deliberately simple. The agent can read text-based files
-(txt, md, py, json, csv, etc.). For PDFs, you'd add a PDF parser.
-
-SECURITY NOTE: In production, you MUST restrict file paths to a safe
-directory (sandbox). Never let an agent read arbitrary system files.
-"""
 import os
 
 
